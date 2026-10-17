@@ -1,0 +1,11 @@
+{
+  "name": "teri-bridge",
+  "version": "1.0.0",
+  "description": "Sends Sapphire replies to the Teri avatar",
+  "capabilities": {
+    "hooks": {
+      "post_llm": "hooks/post_llm.py",
+      "pre_tts": "hooks/pre_tts.py"
+    }
+  }
+}
